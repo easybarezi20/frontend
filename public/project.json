@@ -1,0 +1,14 @@
+ [
+     {
+         "name": "Minesweeper",
+         "live": "https://easybarezi20.github.io/minesweeper_project1/",
+         "git": "https://github.com/easybarezi20/minesweeper_project1",
+         "image":"https://i.imgur.com/5pl7Ccb.png"
+     },
+     {
+         "name": "Personal Dashboard",
+         "live": "mypersonaldashboard.netlify.app",
+         "git": "https://github.com/jbg2023/personal_dashboard",
+         "image":"https://i.imgur.com/PXDjh5T.png"
+     }
+]
