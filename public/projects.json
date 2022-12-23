@@ -7,7 +7,7 @@
      },
      {
          "name": "Personal Dashboard",
-         "live": "mypersonaldashboard.netlify.app",
+         "live": "https://mypersonaldashboard.netlify.app",
          "git": "https://github.com/jbg2023/personal_dashboard",
          "image":"https://i.imgur.com/PXDjh5T.png"
      }
