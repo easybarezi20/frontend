@@ -4,7 +4,7 @@ function About(props) {
     const [about, setAbout] = useState(null);
 
     const getAboutData = async () => {
-    const response = await fetch("https://portfolio-barezi.herokuapp.com/");
+    const response = await fetch("https://portfolio-barezi.herokuapp.com/about");
     const data = await response.json();
     setAbout(data);
   };

@@ -8,7 +8,7 @@ function Projects(props) {
   const getProjectsData = async () => {
     
 		//make api call and get response
-    const response = await fetch("./projects.json");
+    const response = await fetch("https://portfolio-barezi.herokuapp.com/projects");
     
 		// turn response into javascript object
     const data = await response.json();
