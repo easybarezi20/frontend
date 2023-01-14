@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+#container{
+    /* border: 2px solid red; */
+    width: auto; 
+    height: 100%; 
+}
+#home-title-container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 10%; */
+    height: 80vh;
+    text-align: left;
+    justify-content: center;
+}
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 25%;
+}
+.title-name{
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 0 25%;
+}
+.colorchange2{
+    color: #CCD8F8;
+}
+.description-home{
+    margin: 0 5% 0 25%;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #8892B0;
+    
+}
+.description-home-2{
+    margin: 20px 40% 0 25%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #47526E;
+    
+}
+
+
+@media only screen and (max-width: 991px){
+    .title{
+        font-size: 20px;
+        margin: 0 5%;
+    }
+    .title-name{
+        font-size: 45px;
+        margin: 0 5%;
+    }
+    .description-home{
+        margin: 0 5%;
+        font-size: 35px;
+    }
+    .description-home-2{
+        margin: 10px 5%;
+        font-size: 20px;
+    }
+}
