@@ -9,6 +9,7 @@ body {
 	height: 80vh;
 	overflow: hidden;
 	overflow-y: scroll;
+	text-align: center;
 }
 #main-container::-webkit-scrollbar {
     display: none;

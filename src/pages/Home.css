@@ -40,6 +40,10 @@
     color: #47526E;
     
 }
+a{
+    text-decoration: none;
+    color: #8792B0;
+}
 
 
 @media only screen and (max-width: 991px){

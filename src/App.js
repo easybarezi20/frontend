@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 function App() {
   // URL should have YOUR HEROKU URL for your backend (will build later), make sure you include the trailing slash
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects URL={URL} />} />
             <Route path="/about" element={<About URL={URL} />} />
+            <Route path="/resume" element={<Resume URL={URL} />} />
           </Routes>
         </div>
           <Footer />
