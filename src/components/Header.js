@@ -6,7 +6,7 @@ function Header() {
       <div id='nav'>
         <div className='nav-image'>
           <a className='name' href='/'>
-            <img src='https://media.licdn.com/dms/image/D5603AQEI036YCC32EA/profile-displayphoto-shrink_800_800/0/1670988051202?e=1678924800&v=beta&t=0pUDhCYRRBCRoQ9uz03a26YNgGJY0EpplrOobXSTwLg' id='image' key='headshot'/>
+            <img src='https://cdn-icons-png.flaticon.com/128/3096/3096985.png' id='image' key='headshot'/>
           </a>
         </div>
         <div>

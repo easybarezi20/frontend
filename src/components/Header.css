@@ -29,11 +29,14 @@
 }
 .nav-image{
     /* border: 3px solid blue; */
-    height: 70px;
-    width: 70px; 
-    border-radius: 50%;
-    overflow: hidden;
+    height: 40px;
+    width: 40px; 
+    /* border-radius: 50%; */
     margin-left: 20px;
+    filter: invert(63%) sepia(11%) saturate(774%) hue-rotate(187deg) brightness(92%) contrast(83%);
+}
+.nav-image:hover{
+    filter: invert(96%) sepia(63%) saturate(4493%) hue-rotate(104deg) brightness(101%) contrast(107%);
 }
 #image{
     object-fit: cover;
