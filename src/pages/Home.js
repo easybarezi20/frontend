@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from '../components/Skills';
 import './Home.css'
 
 function Home(props) {
@@ -64,10 +65,11 @@ window.onload = function() {
             <p className='title'><span className='colorchange'>Hi, my name is</span></p>
             <p className='title-name'><span className='colorchange2'>Barezi Morales.</span></p>
             <p className='description-home'>
-              I build stuff, with 
-              <a href="" class="typewrite" data-period="2000" data-type='[ " JavaScript.", " Python.", " Java.", " ReactJS." ]'>
-              <span class="wrap"></span>
-              </a>
+              I build stuff, with&nbsp;<div>
+                <a href="" class="typewrite" data-period="2000" data-type='[ " JavaScript.", " Python.", " Java.", " ReactJS." ]'>
+                <span class="wrap"></span>
+                </a>
+              </div>
             </p>
             <p className='description-home-2'>Im a <span className='colorchange'>software engineer</span> specializing in building (and occasionally
               designing) exceptional digital experiences. Currently, I've graduated 

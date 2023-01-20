@@ -28,6 +28,7 @@
 }
 .description-home{
     margin: 0 5% 0 25%;
+    display: flex;
     font-size: 100px;
     font-weight: bolder;
     color: #8892B0;
@@ -42,9 +43,8 @@
 }
 a{
     text-decoration: none;
-    color: #8792B0;
+    color: #01E7E8;
 }
-
 
 @media only screen and (max-width: 991px){
     .title{
@@ -76,6 +76,7 @@ a{
     .description-home{
         margin: 0 10%;
         /* font-size: 35px; */
+        display: block;
     }
     .description-home-2{
         margin: 10px 10%;
