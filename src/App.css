@@ -1,11 +1,10 @@
 body {
 	background-color: #0A192F !important;
-	/* overflow-y: hidden; */
+	overflow-y: hidden;
 	overflow-x: hidden;
 	height: 100vh;
 }
 #main-container{
-	/* border: 2px solid red; */
 	margin: 5px;
 	height: 80vh;
 	overflow: hidden;
