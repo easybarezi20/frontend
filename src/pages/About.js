@@ -56,7 +56,7 @@ function About(props) {
               &lt;/h3&gt;
             </p>
             <p className="bio-text">
-              experienced with backend work and databases such as: <span className="colorchange">MongoDB</span>,<span className="colorchange">Mongoose</span>,<span className="colorchange">SQL</span>,<span className="colorchange">NodeJS</span>, and <span className="colorchange">Express</span>.
+              experienced with backend work and databases such as: <span className="colorchange">MongoDB</span>, <span className="colorchange">Mongoose</span>, <span className="colorchange">SQL</span>, <span className="colorchange">NodeJS</span>, and <span className="colorchange">Express</span>.
             </p>
           </div>
         </div>
