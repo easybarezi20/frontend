@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 #nav{
-    /* border: 1px solid red; */
+    border-bottom: 3px solid #162d4e;
+    margin: 0 5%;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -18,6 +19,9 @@
     margin: 0 10px;
     color: #8892B0;
     font-family: 'Roboto Mono', monospace;
+}
+.links:hover{
+    color: #00ffff;
 }
 .colorchange{
     color: aqua;

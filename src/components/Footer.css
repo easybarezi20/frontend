@@ -1,0 +1,21 @@
+#footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    border-top: 3px solid #162d4e;
+    margin: 0 5%;
+}
+.footer-image{
+    height: 30px;
+    margin: 0 20px;
+    filter: invert(63%) sepia(11%) saturate(774%) hue-rotate(187deg) brightness(92%) contrast(83%);
+}
+.footer-image:hover{
+    filter: invert(96%) sepia(63%) saturate(4493%) hue-rotate(104deg) brightness(101%) contrast(107%);
+}
+.slash{
+    color: #8892B0;
+    
+}

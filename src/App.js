@@ -16,12 +16,14 @@ function App() {
   return (
     <div className="App">
         <Header />
+        <div id="main-container">
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects URL={URL} />} />
             <Route path="/about" element={<About URL={URL} />} />
           </Routes>
-          {/* <Footer /> */}
+        </div>
+          <Footer />
     </div> 
   );
 }

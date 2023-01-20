@@ -60,3 +60,21 @@
         font-size: 20px;
     }
 }
+@media only screen and (max-width: 1334px){
+    .title{
+        /* font-size: 20px; */
+        margin: 0 10%;
+    }
+    .title-name{
+        /* font-size: 45px; */
+        margin: 0 10%;
+    }
+    .description-home{
+        margin: 0 10%;
+        /* font-size: 35px; */
+    }
+    .description-home-2{
+        margin: 10px 10%;
+        /* font-size: 20px; */
+    }
+}
